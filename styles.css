@@ -1,20 +1,34 @@
+/* Footer Section */
+.footer {
+  background: #ff5e62;
+  color: #fff;
+  text-align: center;
+  padding: 32px 10px 24px 10px;
+  font-size: 1.1em;
+  margin-top: 48px;
+  border-radius: 18px 18px 0 0;
+  letter-spacing: 1px;
+}
 /* Global Styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #333;
+  font-family: 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #22223b;
   line-height: 1.6;
+  font-size: 18px; /* Slightly larger base font size for clarity */
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); /* vibrant peach to orange gradient */
+  padding: 60px 20px;
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -22,7 +36,11 @@ body {
 
 .hero h1 {
   margin: 20px 0 10px;
-  color: #16213e;
+  color: #ff5e62;
+  font-size: 4em; /* Much larger for emphasis */
+  font-weight: bold;
+  font-family: 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
+  letter-spacing: 2px;
 }
 
 .hero p {
@@ -31,37 +49,49 @@ body {
 }
 
 .hero button {
-  background-color: #533483; 
+  background-color: #ff5e62;
   color: #fff;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
+  font-size: 1.1em;
+  padding: 18px 40px;
+  font-weight: bold;
+  box-shadow: 0 4px 16px rgba(255,94,98,0.15);
+  transition: background 0.2s;
 }
 
 .hero button:hover {
-  background-color: #362056; 
+  background-color: #ff9966;
 }
 
 /* Product Description Section */
 .description {
   padding: 40px 20px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff0f5;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25em; /* Slightly larger for readability */
+  border-radius: 18px;
 }
 
 /* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
-  background-color: #f7f7f7;
+  background-color: #ffe5ec;
   text-align: center;
+  border-radius: 18px;
 }
 
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #ff5e62;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
+  letter-spacing: 1px;
 }
 
 .how-it-works ol {
@@ -80,28 +110,34 @@ body {
 
 strong {
   color: #533483;
+  text-align: center;
 }
 
 /* Features Section */
 .features {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #f0f7ff;
   text-align: center;
   margin: auto;
   max-width: 800px;
+  border-radius: 18px;
 }
 
 .features h2 {
   margin-bottom: 20px;
-  color: #1a1a2e;
+  color: #ff5e62;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
+  letter-spacing: 1px;
 }
 
 .features ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left;
-  color: #333;
+  text-align: center;
+  color: #22223b;
 }
 
 .features li {
@@ -112,4 +148,6 @@ strong {
 .features li strong {
   display: block;
   margin-bottom: 5px;
+  color: #f76d6d;
+  font-family: 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
 }
